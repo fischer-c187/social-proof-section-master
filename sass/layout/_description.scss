@@ -1,0 +1,17 @@
+.description {
+  text-align: center;
+  color: $primary-color;
+
+  &__title {
+    font-size: rem(40);
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: rem(16);
+    color: #927B91;
+    line-height: em(25);
+    font-weight: 400;
+    margin-top: em(15);
+  }
+}
