@@ -7,12 +7,14 @@
   "./base/fonts",
   "./base/typography",
   "./base/reset",
-  "./base/base";
+  "./base/base",
+  "./base/animations";
 
 @import
   "./layout/header",
   "./layout/description",
-  "./layout/reviews";
+  "./layout/reviews",
+  "./layout/buyer";
 
 @import
   "./components/cards";

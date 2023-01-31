@@ -5,13 +5,22 @@
   &__title {
     font-size: rem(40);
     font-weight: 700;
+
+    @include desktop {
+      font-size: rem(56);
+    }
   }
 
   &__text {
-    font-size: rem(16);
-    color: #927B91;
+    font-size: rem(19);
+    color: #927b91;
     line-height: em(25);
     font-weight: 400;
     margin-top: em(15);
+  }
+
+  @include desktop {
+    width: 45%;
+    text-align: left;
   }
 }

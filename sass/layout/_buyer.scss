@@ -1,0 +1,6 @@
+.buyer {
+  @include desktop {
+    display: flex;
+    gap: em(15);
+  }
+}

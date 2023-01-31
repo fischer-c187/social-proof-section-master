@@ -1,0 +1,16 @@
+@mixin desktop() {
+  @media (min-width: map-get($breakpoints, desktop)) {
+    @content;
+  }
+}
+
+@mixin animation($transform-function, $value) {
+  @keyframes #{$transform-function}#{$value} {
+    0% {
+      transform: #{$transform-function }(0);
+    }
+    100% {
+      transform: #{$transform-function }($value * 1px);
+    }
+  }
+}
